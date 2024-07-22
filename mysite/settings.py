@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+)mh&0xb-o4ya&cm+v24=o^8*=njo)6b7du*o__7ev!iqv+1qr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'calx.pythonanywhere.com']
 
@@ -109,7 +109,7 @@ LANGUAGE_CODE = 'es-es'
 TIME_ZONE = 'America/Guatemala'
 
 USE_I18N = True
-
+USE_L10N = True
 USE_TZ = True
 
 
@@ -117,7 +117,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'static'
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

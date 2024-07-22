@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Alex's blog</title>
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+        <div class="page-header">
+            <h1><strong><em><a href="/">CarnitasReu's Menú</a></em></strong></h1>
+        </div>
+
+        <div class="cards-container" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+            <!-- Existing Product Cards (Beverages) -->
+            <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://walmartgt.vtexassets.com/arquivos/ids/219626/Refresco-Gaseosa-Pepsi-Reg-Lata-335-Ml-1-27411.jpg?v=637721014172300000" class="card-img-top" alt="Pepsi" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Pepsi</strong></p>
+                  </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                  <img src="https://elgranahorro.com.gt/wp-content/uploads/2022/04/901158-AQUA-AGUA-PURA-PET-750ML.jpg" class="card-img-top" alt="Agua Pura" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Agua Pura</strong></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://previews.123rf.com/images/denismart/denismart1610/denismart161000232/64457092-vaso-de-refresco-de-naranja-con-cubitos-de-hielo-y-las-burbujas-con-la-reflexi%C3%B3n-sobre-fondo-blanco.jpg" class="card-img-top" alt="Refresco de Naranja" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Refresco de Naranja</strong></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.coca-cola.com/content/dam/onexp/gt/es/brands/coca-cola/es_coca-cola_prod_orginal-bottle-600mL_750x750_v1.jpg" class="card-img-top" alt="Coca Cola" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Coca Cola</strong></p>
+                  </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOJbxCf-x7SYsI5dNbh4W9faZpGrbxD8BVrZx0eMXXWZjibRZQrTOjaJ9fJBhiJ3lbfw&usqp=CAU" class="card-img-top" alt="Agua de Horchata" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Agua de Horchata</strong></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://media.istockphoto.com/id/1264649353/es/foto/roselle.jpg?s=612x612&w=0&k=20&c=I_Qgv5q8rQwCZ3VDKlooxbFhizdOz6I4X76IK6oZnNw=" class="card-img-top" alt="Agua de Jamaica" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Agua de Jamaica</strong></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://mamaskitchenct.com/wp-content/uploads/2020/11/drink-jugo-de-tamarindo.jpg" class="card-img-top" alt="Agua de Tamarindo" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Agua de Tamarindo</strong></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://vinoteca.gt/cdn/shop/products/Corona_Extra_Botella_900x900.jpg?v=1650382249" class="card-img-top" alt="Cerveza Corona" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Cerveza Corona</strong></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://meatshop.gt/image/cache/catalog/Productos/Licores/cercezas-y-licores-a-domicilio-guatemala-modelo-especial2-1200x1200.jpg" class="card-img-top" alt="Cerveza Modelo" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Cerveza Modelo</strong></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.plusesmas.com/pictures/recetas/5000/5493.jpg" class="card-img-top" alt="Refresco de Manzana" style="width: 150px; height: 150px; display: block; margin-left: auto; margin-right: auto;">
+                  <div class="card-body" style="text-align: center;">
+                    <p class="card-text"><strong>Refresco de Manzana</strong></p>
+                  </div>
+                </div>
+            </div>
+
+            <!-- New Section for Food Products -->
+            <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://theforkedspoon.com/wp-content/uploads/2023/01/Carne-Asada-66.jpg" class="card-img-top" alt="Carne Asada" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Carne Asada</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.allrecipes.com/thmb/kPCpDhyAub-NJoPEa7fqkyMhM7k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/219048-pork-carnitas-DDMFS-4x3-71cbeba756924694b7af3f402342c9d7.jpg" class="card-img-top" alt="Carnitas" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Carnitas</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://editorialtelevisa.brightspotcdn.com/dims4/default/1b649b3/2147483647/strip/true/crop/804x804+259+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2Ff2%2F1aee77e8478693f114c6be618a9f%2Fbarbacoa-de-pollo.JPG" class="card-img-top" alt="Barbacoa" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Barbacoa</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://sofia.com.bo/wp-content/uploads/2021/06/chorizo_churrasquero_ok_1.jpg" class="card-img-top" alt="Chorizo" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Chorizo</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn7.kiwilimon.com/recetaimagen/13996/6330.jpg" class="card-img-top" alt="Pastor" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Pastor</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://img-global.cpcdn.com/recipes/2abb14aaf83ecc97/400x400cq70/photo.jpg" class="card-img-top" alt="Bistec" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Bistec</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn0.recetasgratis.net/es/posts/4/1/3/filete_de_pechuga_a_la_plancha_59314_orig.jpg" class="card-img-top" alt="Pechuga de Pollo" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Pechuga de Pollo</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://mandolina.co/wp-content/uploads/2023/08/costillas-bourbon-1080x550-1.png" class="card-img-top" alt="Costillas" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Costillas</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/7fd9e77b-3396-49f3-be08-fceef56376bf/Derivates/8a096b0f-382a-47ac-b11a-62b630e0e59e.jpg" class="card-img-top" alt="Milanesa" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Milanesa</strong></p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.mexhaus.de/media/image/5b/e0/94/Mini-arrachera.jpg" class="card-img-top" alt="Arrachera" style="width: 100%; height: 150px;">
+                    <div class="card-body" style="text-align: center;">
+                        <p class="card-text"><strong>Arrachera</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Comentado temporalmente: Contenedor adicional de texto -->
+  <!--
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                {% block content %}
+                {% endblock %}
+                </div>
+            </div>
+        </div>
+         -->
+  
+  <!-- Contenedor de texto actual -->
+
+
+
